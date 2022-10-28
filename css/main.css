@@ -1,0 +1,72 @@
+body {
+    --bs-bg-opacity: 0.9;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+#drop_zone {
+    border-style: dashed;
+    border-radius: 2rem;
+    border-color: rgba(var(--bs-dark-rgb), 1) !important;
+    border-width: 0.2rem;
+}
+
+#drop_zone-2 {
+    border-style: dashed;
+    border-radius: 1rem;
+    border-color: rgba(var(--bs-dark-rgb), 1) !important;
+    border-width: 0.2rem;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.display-none {
+    display: none;
+}
+
+/* Custom Scrollbar using CSS */
+.custom-scrollbar-css {
+    overflow-y: scroll;
+    border-radius: 1rem;
+    height: 38rem;
+}
+
+.custom-scrollbar-css {
+    scrollbar-width: none;
+    scrollbar-color: rgba(var(--bs-info-rgb), 1) #eee;
+}
+
+/* scrollbar width */
+.custom-scrollbar-css::-webkit-scrollbar {
+    width: 1rem;
+    border-bottom-right-radius : 1rem;
+    border-top-right-radius: 1rem;
+}
+
+/* scrollbar track */
+.custom-scrollbar-css::-webkit-scrollbar-track {
+    background: #eee;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius : 1rem;
+}
+
+/* scrollbar handle */
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius : 1rem;
+    background-color: rgba(var(--bs-info-rgb), 1);
+}
+
+.code {
+    border-radius: 0.75rem;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.bg-body-main {
+    --bs-bg-opacity: 0.9;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
